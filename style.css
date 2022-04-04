@@ -1,0 +1,109 @@
+/*
+    COLORS
+#17252A
+#2B7A78
+#3AAFA9
+#DEF2F1
+#FEFFFF
+
+
+*/
+
+body {
+    font-size: 62.5%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3AAFA9;
+}
+
+header h1 {
+    font-size: 4rem;
+    color: #17252A;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.separator {
+    width: 100%;
+    height: 2px;
+    background-color: #cccc;
+    margin: 20px 0;
+}
+
+
+/*      NAV     */
+
+ul {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #DEF2F1;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+ul .nav-item {
+    margin: 0 30px;
+    font-size: 2rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #3AAFA9;
+    font-weight: bold;
+}
+
+.nav-item a:hover {
+    color: #17252A;
+}
+
+
+/*      NAV END     */
+
+
+/*      CONTENT     */
+
+.content {
+    width: 80%;
+    min-height: calc(100vh - (910px - 550px));
+}
+
+.page-title {
+    font-size: 3rem;
+    color: #2B7A78;
+}
+
+.page-text {
+    font-size: 1.4rem;
+    text-align: justify;
+    margin-bottom: 100px;
+}
+
+
+/*      CONTENT END     */
+
+
+/*      FOOTER     */
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: #2B7A78;
+}
